@@ -1,4 +1,4 @@
-package com.example.dessertclicker.ui.theme
+package com.example.dessertclicker.data
 
 data class DessertUiState(
     val revenue: Int = 0,

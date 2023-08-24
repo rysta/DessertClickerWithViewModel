@@ -1,7 +1,8 @@
-package com.example.dessertclicker.ui.theme
+package com.example.dessertclicker.ui
 
 import androidx.lifecycle.ViewModel
 import com.example.dessertclicker.data.Datasource
+import com.example.dessertclicker.data.DessertUiState
 import com.example.dessertclicker.model.Dessert
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
