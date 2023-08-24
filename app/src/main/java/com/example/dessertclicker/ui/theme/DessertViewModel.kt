@@ -17,7 +17,8 @@ class DessertViewModel: ViewModel() {
     }
 
     fun reset(){
-        _uiState.value = DessertUiState()
+        val initDessert = Datasource.dessertList.first()
+        _uiState.value = DessertUiState(currentDessertImageId = initDessert.imageId)
     }
 
     fun dessertClicked() {
